@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Smoke and snapshot CompanyCard test should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="text-start card border-info"
+    style="width: 80vw;"
+  >
+    <div
+      class="card-body"
+    >
+      <h5
+        class="card-title"
+      >
+        test at test
+      </h5>
+      <p
+        class="card-text"
+      >
+        Salary: 50000
+      </p>
+      <p
+        class="card-text"
+      >
+        Equity: .03
+      </p>
+      <button
+        class="btn btn-secondary"
+        type="button"
+      >
+         Submit Application! 
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Smoke and snapshot CompanyPage test should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ResultsPage"
+  >
+    <form
+      action="/companies"
+      method="get"
+    >
+      <input
+        id="name"
+        name="name"
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Search companies
+      </button>
+    </form>
+    <a
+      href="/companies/test1"
+    >
+      <div
+        class="text-start card border-info"
+        style="width: 80vw;"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            Name1
+          </h5>
+          <p
+            class="card-text"
+          >
+            Desc: Test company 1
+          </p>
+          <p
+            class="card-text"
+          >
+            Size: 45 employees
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      href="/companies/test2"
+    >
+      <div
+        class="text-start card border-info"
+        style="width: 80vw;"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            Name2
+          </h5>
+          <p
+            class="card-text"
+          >
+            Desc: Test company 2
+          </p>
+          <p
+            class="card-text"
+          >
+            Size: 2 employees
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      href="/companies/test3"
+    >
+      <div
+        class="text-start card border-info"
+        style="width: 80vw;"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            Name3
+          </h5>
+          <p
+            class="card-text"
+          >
+            Desc: Test company 3
+          </p>
+          <p
+            class="card-text"
+          >
+            Size: 101 employees
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</DocumentFragment>
+`;

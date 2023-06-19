@@ -1,0 +1,47 @@
+.NavBar {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.NavBar a {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: rgba(255, 250, 240, 0.20);
+    font-size: 18px;
+    height: 30px;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+}
+
+.NavBar a:hover {
+    background-color: rgba(255, 250, 240, 0.76);
+    color: cornflowerblue;
+}
+
+.NavBar button {
+    margin: 15px;
+    padding: 5px 10px;
+    background-color: rgba(255, 250, 240, 0.20);
+    font-size: 18px;
+    height: 30px;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+
+.NavBar button:hover {
+    background-color: rgba(255, 250, 240, 0.76);
+    color: cornflowerblue;
+}
+
+.NavBar-Home {
+    position: absolute;
+    left: 2vw;
+}

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Smoke and snapshot CompanyCard test should match snapshot 1`] = `
+<DocumentFragment>
+  <form
+    action="/"
+    method="get"
+  >
+    <label
+      for="username"
+    >
+      Username:
+    </label>
+    <input
+      id="username"
+      name="username"
+      readonly=""
+      type="text"
+      value="test"
+    />
+    <label
+      for="firstName"
+    >
+      First name:
+    </label>
+    <input
+      id="firstName"
+      name="firstName"
+      type="text"
+      value="testFN"
+    />
+    <label
+      for="lastName"
+    >
+      Last name:
+    </label>
+    <input
+      id="lastName"
+      name="lastName"
+      type="text"
+      value="testLN"
+    />
+    <label
+      for="email"
+    >
+      Email:
+    </label>
+    <input
+      id="email"
+      name="email"
+      type="text"
+      value="test@test.com"
+    />
+    <button
+      type="submit"
+    >
+      Edit test!
+    </button>
+  </form>
+</DocumentFragment>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Smoke and snapshot tests for Home.js should match snapshot 1`] = `
+<DocumentFragment>
+  <h2>
+    Welcome back test
+  </h2>
+  <a
+    href="/jobs"
+  >
+    Look at jobs
+  </a>
+  <a
+    href="/companies"
+  >
+    Look at companies
+  </a>
+</DocumentFragment>
+`;

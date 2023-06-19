@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Smoke and snapshot CompanyCard test should match snapshot 1`] = `
+<DocumentFragment>
+  <a
+    href="/companies/test"
+  >
+    <div
+      class="text-start card border-info"
+      style="width: 80vw;"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="card-title"
+        >
+          Name
+        </h5>
+        <p
+          class="card-text"
+        >
+          Desc: Test company
+        </p>
+        <p
+          class="card-text"
+        >
+          Size: 45 employees
+        </p>
+      </div>
+    </div>
+  </a>
+</DocumentFragment>
+`;
